@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>41b69e248a6c4ba1921fa9b7c8c1eed4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>warnings.simplefilter(action<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&quot;/Users/admin/Documents/Y3S1/CMPS 6790/Project/CT_2013_2022/CT_2013_2022.csv&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data_year</th>
+      <th>ori</th>
+      <th>pub_agency_name</th>
+      <th>pub_agency_unit</th>
+      <th>agency_type_name</th>
+      <th>state_abbr</th>
+      <th>state_name</th>
+      <th>division_name</th>
+      <th>county_name</th>
+      <th>region_name</th>
+      <th>...</th>
+      <th>location_name</th>
+      <th>weapon_code</th>
+      <th>weapon_name</th>
+      <th>prop_desc_code</th>
+      <th>prop_desc_code.1</th>
+      <th>prop_desc_name</th>
+      <th>stolen_value</th>
+      <th>recovered_value</th>
+      <th>recovered_flag</th>
+      <th>date_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2012</td>
+      <td>FL0160200</td>
+      <td>Jacksonville</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>FL</td>
+      <td>Florida</td>
+      <td>South Atlantic</td>
+      <td>DUVAL</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Not Specified</td>
+      <td>12</td>
+      <td>Handgun</td>
+      <td>8.0</td>
+      <td>8.0</td>
+      <td>Consumable Goods</td>
+      <td>10000.0</td>
+      <td>10000</td>
+      <td>True</td>
+      <td>2012-07-25</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2012</td>
+      <td>FL0160200</td>
+      <td>Jacksonville</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>FL</td>
+      <td>Florida</td>
+      <td>South Atlantic</td>
+      <td>DUVAL</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Not Specified</td>
+      <td>12</td>
+      <td>Handgun</td>
+      <td>8.0</td>
+      <td>8.0</td>
+      <td>Consumable Goods</td>
+      <td>10000.0</td>
+      <td>10000</td>
+      <td>True</td>
+      <td>2012-07-25</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2012</td>
+      <td>FL0160200</td>
+      <td>Jacksonville</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>FL</td>
+      <td>Florida</td>
+      <td>South Atlantic</td>
+      <td>DUVAL</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Not Specified</td>
+      <td>12</td>
+      <td>Handgun</td>
+      <td>8.0</td>
+      <td>8.0</td>
+      <td>Consumable Goods</td>
+      <td>10000.0</td>
+      <td>10000</td>
+      <td>True</td>
+      <td>2012-07-25</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2012</td>
+      <td>FL0160200</td>
+      <td>Jacksonville</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>FL</td>
+      <td>Florida</td>
+      <td>South Atlantic</td>
+      <td>DUVAL</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Not Specified</td>
+      <td>12</td>
+      <td>Handgun</td>
+      <td>8.0</td>
+      <td>8.0</td>
+      <td>Consumable Goods</td>
+      <td>10000.0</td>
+      <td>10000</td>
+      <td>True</td>
+      <td>2012-07-25</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2012</td>
+      <td>FL0160200</td>
+      <td>Jacksonville</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>FL</td>
+      <td>Florida</td>
+      <td>South Atlantic</td>
+      <td>DUVAL</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Commercial/Office Building</td>
+      <td>12</td>
+      <td>Handgun</td>
+      <td>8.0</td>
+      <td>8.0</td>
+      <td>Consumable Goods</td>
+      <td>10000.0</td>
+      <td>10000</td>
+      <td>True</td>
+      <td>2012-07-25</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>card_fraud <span class="op">=</span> data[data[<span class="st">&quot;offense_name&quot;</span>] <span class="op">==</span> <span class="st">&quot;Credit Card/Automated Teller Machine Fraud&quot;</span>]</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>card_fraud.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data_year</th>
+      <th>ori</th>
+      <th>pub_agency_name</th>
+      <th>pub_agency_unit</th>
+      <th>agency_type_name</th>
+      <th>state_abbr</th>
+      <th>state_name</th>
+      <th>division_name</th>
+      <th>county_name</th>
+      <th>region_name</th>
+      <th>...</th>
+      <th>location_name</th>
+      <th>weapon_code</th>
+      <th>weapon_name</th>
+      <th>prop_desc_code</th>
+      <th>prop_desc_code.1</th>
+      <th>prop_desc_name</th>
+      <th>stolen_value</th>
+      <th>recovered_value</th>
+      <th>recovered_flag</th>
+      <th>date_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>349</th>
+      <td>2012</td>
+      <td>SC0200000</td>
+      <td>Fairfield</td>
+      <td>NaN</td>
+      <td>County</td>
+      <td>SC</td>
+      <td>South Carolina</td>
+      <td>South Atlantic</td>
+      <td>FAIRFIELD</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Convenience Store</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9.0</td>
+      <td>9.0</td>
+      <td>Credit/ Debit cards</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>2012</td>
+      <td>SC0200000</td>
+      <td>Fairfield</td>
+      <td>NaN</td>
+      <td>County</td>
+      <td>SC</td>
+      <td>South Carolina</td>
+      <td>South Atlantic</td>
+      <td>FAIRFIELD</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Residence/Home</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9.0</td>
+      <td>9.0</td>
+      <td>Credit/ Debit cards</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>2012</td>
+      <td>TN0320100</td>
+      <td>Morristown</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>TN</td>
+      <td>Tennessee</td>
+      <td>East South Central</td>
+      <td>HAMBLEN, JEFFERSON</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Department/Discount Store</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>19.0</td>
+      <td>19.0</td>
+      <td>Merchandise</td>
+      <td>1066.0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>2014</td>
+      <td>MI8121800</td>
+      <td>Ann Arbor</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>MI</td>
+      <td>Michigan</td>
+      <td>East North Central</td>
+      <td>WASHTENAW</td>
+      <td>Midwest</td>
+      <td>...</td>
+      <td>Service/Gas Station</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9.0</td>
+      <td>9.0</td>
+      <td>Credit/ Debit cards</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1442</th>
+      <td>2021</td>
+      <td>TX0202900</td>
+      <td>Oyster Creek</td>
+      <td>NaN</td>
+      <td>City</td>
+      <td>TX</td>
+      <td>Texas</td>
+      <td>West South Central</td>
+      <td>BRAZORIA</td>
+      <td>South</td>
+      <td>...</td>
+      <td>Bank/Savings and Loan</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>Money</td>
+      <td>964.0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the occurrences of fraud by country</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>fraud_by_region <span class="op">=</span> card_fraud[<span class="st">&#39;region_name&#39;</span>].value_counts()</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the pie chart</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.pie(fraud_by_region, labels<span class="op">=</span>fraud_by_region.index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.2f%%</span><span class="st">&#39;</span>, startangle<span class="op">=</span><span class="dv">140</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Percentage of Fraud Occurrences by Region&#39;</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_57406fa6d6474482937d42a10fb9c0e8/9be3fe67f081040c8e338e62140acd73823a9f83.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># count the occurrences of fraud by place</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fraud_by_region <span class="op">=</span> card_fraud[<span class="st">&#39;location_name&#39;</span>].value_counts()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># define a threshold for grouping smaller slices</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>threshold <span class="op">=</span> <span class="fl">0.02</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>total_frauds <span class="op">=</span> fraud_by_region.<span class="bu">sum</span>()</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>fraud_by_region <span class="op">=</span> fraud_by_region[fraud_by_region <span class="op">/</span> total_frauds <span class="op">&gt;</span> threshold]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># add an &#39;Other&#39; category for the remaining slices</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>other_frauds <span class="op">=</span> total_frauds <span class="op">-</span> fraud_by_region.<span class="bu">sum</span>()</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>fraud_by_region[<span class="st">&#39;Other&#39;</span>] <span class="op">=</span> other_frauds</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the pie chart</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>plt.pie(fraud_by_region, labels<span class="op">=</span>fraud_by_region.index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.2f%%</span><span class="st">&#39;</span>, startangle<span class="op">=</span><span class="dv">140</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Percentage of Fraud Occurrences by Place&#39;</span>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_57406fa6d6474482937d42a10fb9c0e8/710524459cd84580056e3203944c3bbcda4579dc.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># count the occurrences of fraud by place</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>fraud_by_race <span class="op">=</span> card_fraud[<span class="st">&#39;offender_race&#39;</span>].value_counts()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># define a threshold for grouping smaller slices</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>threshold <span class="op">=</span> <span class="fl">0.02</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>total_frauds <span class="op">=</span> fraud_by_race.<span class="bu">sum</span>()</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>fraud_by_race <span class="op">=</span> fraud_by_race[fraud_by_race <span class="op">/</span> total_frauds <span class="op">&gt;</span> threshold]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># add an &#39;Other&#39; category for the remaining slices</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>other_frauds <span class="op">=</span> total_frauds <span class="op">-</span> fraud_by_race.<span class="bu">sum</span>()</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>fraud_by_race[<span class="st">&#39;Other&#39;</span>] <span class="op">=</span> other_frauds</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the pie chart</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>plt.pie(fraud_by_race, labels<span class="op">=</span>fraud_by_race.index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.2f%%</span><span class="st">&#39;</span>, startangle<span class="op">=</span><span class="dv">140</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Percentage of Fraud Occurrences by Place&#39;</span>)</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_57406fa6d6474482937d42a10fb9c0e8/4deaac7f748825c66d0d0beb476f5322c7075d2e.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># count the occurrences of fraud by account type</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>fraud_by_type <span class="op">=</span> card_fraud[<span class="st">&#39;victim_type_name&#39;</span>].value_counts()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the bar plot</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>plt.bar(fraud_by_type.index, fraud_by_type.values, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Victim Type&#39;</span>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Fraudulent Transactions&#39;</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Fraudulent Transactions by Victim Type&#39;</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_57406fa6d6474482937d42a10fb9c0e8/5cb446e99cddc415fec2a15b55fde846d7b099a2.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># count the occurrences of fraud by year</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>fraud_by_year <span class="op">=</span> card_fraud[<span class="st">&#39;data_year&#39;</span>].value_counts().sort_index()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the line graph</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>plt.plot(fraud_by_year.index, fraud_by_year.values, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Fraudulent Transactions&#39;</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Fraudulent Transactions by Year&#39;</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.tight_layout() </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_57406fa6d6474482937d42a10fb9c0e8/0e1dd9241836e50cc659e1b6dec186f293fd6093.png" /></p>
+</div>
+</div>
+</body>
+</html>
